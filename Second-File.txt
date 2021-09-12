@@ -16,4 +16,11 @@ git branch -M main
 git push -u origin main
 
 
-Just trying to make a small modification.
+To pull changes
+git pull origin main
+
+To create a new branch
+git branch <branch-name>
+
+To switch branch
+git checkout <branch-name>
