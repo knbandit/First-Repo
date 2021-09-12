@@ -1,5 +1,4 @@
 To create a new repository on the command line:
-
 echo "# First-Repo" >> README.md
 git init
 git add README.md
@@ -8,13 +7,10 @@ git branch -M main
 git remote add origin git@github.com:knbandit/First-Repo.git
 git push -u origin main
 
-
 To push an existing repository from the command line:
-
 git remote add origin git@github.com:knbandit/First-Repo.git
 git branch -M main
 git push -u origin main
-
 
 To pull changes
 git pull origin main
