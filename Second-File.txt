@@ -1,3 +1,20 @@
+Create a local copy of a repo
+- Open Git Bash on the directory you want the repo to be cloned to
+- git clone git@github.com:knbandit/my-repo.git
+
+Check whether local copy is up to date
+- git status
+
+Add files to repo
+- git add .
+- git commit -m "update"
+- git push origin main
+
+Pull changes from remote repo
+- git pull origin main
+
+==============================================================
+
 To create a new repository on the command line:
 echo "# First-Repo" >> README.md
 git init
@@ -11,9 +28,6 @@ To push an existing repository from the command line:
 git remote add origin git@github.com:knbandit/First-Repo.git
 git branch -M main
 git push -u origin main
-
-To pull changes
-git pull origin main
 
 To create a new branch
 git branch <branch-name>
