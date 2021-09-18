@@ -5,12 +5,14 @@ Create a local copy of a repo
 Check whether local copy is up to date
 - git status
 
-Add files to repo
+Add files and commit
 - git add .
 - git commit -m "update"
+
+Push changes on local copy to repo
 - git push origin main
 
-Pull changes from remote repo
+Pull changes from repo to local copy
 - git pull origin main
 
 ==============================================================
